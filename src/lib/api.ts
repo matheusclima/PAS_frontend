@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.API_BASE_URL ?? 'http://localhost:3030';
+const BASE_URL = 'https://pas_backend.onrender.com';
 const api = axios.create({
     baseURL: BASE_URL,
     headers: {
